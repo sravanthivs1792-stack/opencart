@@ -1,0 +1,1 @@
+module.exports = { default: { requireModule: ['ts-node/register'], require: ['src/support/world.ts', 'src/support/hooks.ts', 'src/steps/**/*.ts'], paths: ['features/**/*.feature'], format: ['progress', 'html:reports/cucumber-report.html', 'json:reports/cucumber-report.json'], publishQuiet: true, parallel: 0 } };
